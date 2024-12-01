@@ -1,0 +1,12 @@
+İlk olarak ollamayı serverda başlatmak için
+
+1. Bilgisayar terminaline ollama serve yaz.
+
+2. Pycharm ın terminaline pip install ollama ve pip install ollama-community yaz.
+
+3. Sonrasında Pycharm da şu kodu yaz. 
+
+from langchain_community.llms import Ollama
+llm = Ollama(model='llama3.2')
+liste=llm.invoke('Prompt yazılır')
+
