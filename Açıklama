@@ -2,7 +2,7 @@
 
 1. Bilgisayar terminaline ollama serve yaz.
 
-2. Pycharm ın terminaline pip install ollama ve pip install ollama-community yaz.
+2. Pycharm ın terminaline pip install ollama ve pip install -U langchain-ollama yaz.
 
 3. Sonrasında Pycharm da şu kodu yaz. 
 
